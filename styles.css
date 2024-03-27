@@ -1,0 +1,30 @@
+.calculadora {
+    background-color: rgb(67, 73, 68);
+    border: 5px groove black;
+    border-radius: 5px;
+    width: 380px;
+}
+
+.resultado {
+    background-color: rgb(167, 180, 148);
+    color: black;
+    text-align: right;
+    font-size: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border: 2px groove outset #000; 
+
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.operador.btn-info {
+    width: 190px; 
+    border: 2px outset #888;
+}
